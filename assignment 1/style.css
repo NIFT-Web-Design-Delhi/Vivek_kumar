@@ -111,7 +111,7 @@ nav .MenuItem.dropdown:hover .SubMenu {
 }
 
 
-section#banner {
+section#Banner {
   background-image: url(./images/banner.jpeg);
   height: 90VH;
   background-size: cover;
@@ -123,13 +123,13 @@ section#banner {
   gap: 34px;
 }
 
-#banner h1 {
+#Banner h1 {
   font-size: 70px;
   color: white;
   letter-spacing: 8px;
 }
 
-#banner p {
+#Banner p {
   color: white;
   font-size: 18px;
   width: 800px;
@@ -139,7 +139,7 @@ section#banner {
   margin-bottom: 20px;
 }
 
-#banner a {
+#Banner a {
   text-decoration: none;
   text-transform: uppercase;
   color: white;
@@ -154,6 +154,93 @@ section#banner {
   transition: all .2s;
 }
 
-#banner a:hover {
+#Banner a:hover {
   background-position: 47% 50%;
+}
+
+#AboutContainer {
+  position: relative;
+}
+
+#AboutContainer:before {
+  content: '';
+  background-image: url(./svgs/vector1.svg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 700px;
+  height: 700px;
+  background-repeat: no-repeat;
+  background-position: 350px -170px;
+  z-index: -1;
+}
+
+#About {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 120px 0;
+  display: flex;
+  gap: 100px;
+}
+
+#About h2 {
+  font-size: 35px;
+  margin-top: 8px;
+}
+
+#About h4 {
+  font-size: 19px;
+}
+
+#AboutSubSections {
+  display: flex;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+#AboutSubSections p {
+  color: #58595b;
+  margin-bottom: 40px;
+}
+
+#AboutSubSections a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  color: #a55e3f;
+  font-weight: 400;
+}
+
+#AboutSubSections a div {
+  letter-spacing: 0px;
+  font-size: 0px;
+}
+
+#AboutSubSections a div span {
+  display: inline-block;
+  width: 15px;
+  height: 2px;
+  transition: all .2s;
+}
+
+#AboutSubSections a div span:nth-child(1) {
+  background-color: #741513;
+  width: 0px;
+}
+
+#AboutSubSections a div span:nth-child(2) {
+  background-color: #e29c6d;
+}
+
+#AboutSubSections a div span:nth-child(3) {
+  background-color: #0d1e64;
+  margin-right: 14px;
+}
+
+#AboutSubSections a:hover div span:nth-child(1) {
+  width: 15px;
 }
