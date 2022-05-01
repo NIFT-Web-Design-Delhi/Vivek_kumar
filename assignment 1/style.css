@@ -517,3 +517,97 @@ section#Banner {
   font-weight: 500;
   letter-spacing: .165em;
 }
+
+/* Peoples */
+
+#OurIdentity {
+  display: flex;
+}
+
+#OurIdentityImage, #OurIdentityPoints {
+  width: 50%;
+}
+
+#OurIdentityImage {
+  background-image: url(./images/ourIdentity.jpeg);
+  background-repeat: none;
+  background-size: cover;
+}
+
+#OurIdentityPoints {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 90px;
+  padding: 80px 0 60px;
+  background-color: #fcf7f4;
+}
+
+#OurIdentityPoints > div {
+  width: 250px;
+}
+
+#OurIdentityPoints h2 {
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+#OurIdentityPoints p {
+  color: grey;
+}
+
+#OurIdentityPoints img {
+  position: relative;
+  top: 0px;
+  transition: all .2s;
+  cursor: pointer;
+}
+#OurIdentityPoints img:hover {
+  position: relative;
+  top: -10px;
+}
+
+#PeopleBehind {
+  position: relative;
+  padding: 140px 0;
+  text-align: center;
+}
+
+#PeopleBehind h2 {
+  margin-top: 24px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+#PeopleBehindList {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  gap: 100px;
+}
+
+#PeopleBehindList img {
+  height: 560px;
+}
+
+#PeopleBehindList h4 {
+  text-transform: uppercase;
+  font-size: 19px;
+  margin-top: 30px;
+  margin-bottom: 6px;
+}
+
+#PeopleBehindList p {
+  color: grey;
+}
+
+#PeopleBehind:after {
+  display: block;
+  background-image: url(./images/product_bottom.jpeg);
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
