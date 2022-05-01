@@ -611,3 +611,42 @@ section#Banner {
   bottom: 0;
   left: 0;
 }
+
+/*  Footer  */
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 100px 0;
+  background-color: #fcf7f4;
+}
+
+footer > section {
+  width: 18%;
+}
+
+#LogoFooter img {
+  margin-bottom: 20px;
+}
+
+#LogoFooter p {
+  width: 220px;
+  color: grey;
+  font-size: 15px;
+}
+
+footer h5 {
+  text-transform: uppercase;
+}
+
+footer p {
+  color: rgba(0,0,0,.7);
+  margin-bottom: 4px;
+  font-size: 15px;
+}
+
+footer section:last-child img {
+  margin-right:5px;
+}
