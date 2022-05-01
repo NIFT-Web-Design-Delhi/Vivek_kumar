@@ -1,0 +1,26 @@
+section {
+  color: red;
+  padding: 40px;
+  background-color: orange;
+  margin-top: 60px;
+  margin-left: 80px;
+  margin-bottom: 50px;
+  margin-right:60px;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom:40px;
+  padding-right: 40px;
+  border: 10px;
+  border-radius: 60px;
+  opacity: 50%;
+
+}
+
+section p {
+  color: grey;
+  padding: 90px;
+  margin: 100px 50px;
+  background-color:#ffff;
+  border: 10px ;
+  border-radius: 100px;
+}
