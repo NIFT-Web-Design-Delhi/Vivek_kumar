@@ -369,3 +369,151 @@ section#Banner {
 #Testimonials #profile p {
   color: grey;
 }
+
+/* Image Gallery */
+
+#ImageGallery {
+  height: 345px;
+  display: flex;
+}
+
+#ImageGallery div {
+  position: relative;
+  width: 33.3%;
+  height: 100%;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#ImageGallery div:before {
+  display: block;
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  transition: all .4s;
+}
+
+#ImageGallery div:hover:before {
+  transform: scale(1.03);
+}
+
+#ImageGallery div:nth-child(1):before {
+  background-image: url(./images/imageGallery1.jpeg);
+}
+#ImageGallery div:nth-child(2):before {
+  background-image: url(./images/imageGallery2.jpeg);
+}
+
+#ImageGallery div:nth-child(3):before {
+  background-image: url(./images/imageGallery3.jpeg);
+}
+
+#ImageGallery div span {
+  position: absolute;
+  display: block;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 27%;
+  padding: 44px 0;
+  text-align: center;
+  background-color: grey;
+  font-size: 19px;
+  font-family: 'Alegreya', serif;
+  font-weight: 500;
+  letter-spacing: .165em;
+  color: white;
+  border-radius: 30px;
+  z-index: 2;
+}
+
+#imageGallery div:nth-child(1) span {
+  background-color: #8d8032;
+}
+
+#ImageGallery div:nth-child(2) span {
+  background-color: #fceee7;
+  color: #a45e3f;
+}
+
+#ImageGallery div:nth-child(3) span {
+  background-color: #662a01;
+}
+
+/* Products */
+
+#Products {
+  position: relative;
+  padding: 140px 0;
+  text-align: center;
+}
+
+#Products .TopBorder{
+  background-image: url(./images/product_top.jpeg);
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#Products .RightBorder{
+  background-image: url(./images/product_right.jpeg);
+  height: 100%;
+  width: 8px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#Products .BottomBorder{
+  background-image: url(./images/product_bottom.jpeg);
+  width: 100%;
+  height: 8px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#Products .LeftBorder{
+  background-image: url(./images/product_left.jpeg);
+  height: 100%;
+  width: 8px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#Products h2 {
+  margin-top: 24px;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+#ProductsDisplay {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+#ProductsDisplay div img {
+  width: 300px;
+}
+
+#ProductsDisplay h4 {
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+#ProductsDisplay p {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+#ProductsDisplay span {
+  font-family: 'Alegreya', serif;
+  font-weight: 500;
+  letter-spacing: .165em;
+}
