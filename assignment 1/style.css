@@ -244,3 +244,77 @@ section#Banner {
 #AboutSubSections a:hover div span:nth-child(1) {
   width: 15px;
 }
+
+
+/* Collage */
+
+#Collage {
+  width: 1300px;
+  height: 650px;
+  margin: 0 auto;
+  display: flex;
+}
+
+#SingleCollage, #SmallerCollage {
+  position: relative;
+  width: 50%;
+}
+
+#Collage #SingleCollage {
+  background-image: url(./images/collage_1.jpeg);
+  background-size: contain;
+}
+#SmallerCollage div:nth-child(1) {
+  background-image: url(./images/collage_2.jpeg);
+  background-size: contain;
+}
+#SmallerCollage div:nth-child(2) {
+  background-image: url(./images/collage_3.jpeg);
+  background-size: contain;
+}
+#SmallerCollage div:nth-child(3) {
+  background-image: url(./images/collage_4.jpeg);
+  background-size: contain;
+}
+#SmallerCollage div:nth-child(4) {
+  background-image: url(./images/collage_5.jpeg);
+  background-size: contain;
+}
+
+#Collage #SmallerCollage {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#Collage #SmallerCollage div {
+  position: relative;
+  width: 50%;
+}
+
+#Collage span {
+  position: absolute;
+  display: block;
+  padding: 16px 0;
+  background-color: white;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  opacity: 0;
+  bottom: 0px;
+  transition: all .4s;
+}
+
+#Collage span h6 {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+#Collage span p {
+  color: grey;
+}
+
+#SingleCollage:hover span, #SmallerCollage > div:hover span {
+  opacity: 1;
+  bottom: 20px;
+}
