@@ -318,3 +318,54 @@ section#Banner {
   opacity: 1;
   bottom: 20px;
 }
+
+
+/* Testimonials */
+
+#Testimonials {
+  position: relative;
+  text-align: center;
+  padding: 140px 0;
+}
+
+#Testimonials:before {
+  content: '';
+  display: block;
+  background-image: url(./images/testimonials_bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+  z-index: -1;
+}
+
+#Testimonials h2 {
+  font-size: 35px;
+  text-transform: uppercase;
+  margin: 24px 0;
+}
+
+#Testimonials p {
+  width: 800px;
+  margin: 0 auto;
+  line-height: 28px;
+}
+
+#Testimonials #profile {
+  margin-top: 40px;
+}
+
+#Testimonials #profile img {
+  margin-bottom: 10px;
+}
+
+#Testimonials #profile h4 {
+  margin-bottom: 4px;
+}
+
+#Testimonials #profile p {
+  color: grey;
+}
