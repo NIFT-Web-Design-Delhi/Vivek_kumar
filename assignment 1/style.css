@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;700&family=Lato:wght@300;400;700&display=swap');
+
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  color: #a55e3f;
+}
+
+p {
+  line-height: 24px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Alegreya', serif;
+  font-weight: 500;
+  letter-spacing: .165em;
+  margin-bottom: 16px;
+}
+
+
+header {
+  display: flex;
+  height: 90px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  border-bottom: 1px solid #a55e3f;
+  background-color: white;
+}
+
+header nav {
+  display: flex;
+  gap: 30px;
+  position: relative;
+}
+
+header a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2.5px;
+  color: #a55e3f;
+  padding: 0 3px;
+}
+
+header nav .MenuItem {
+  overflow: hidden;
+}
+
+.ColouredLine {
+  display: flex;
+  height: 1px;
+  width: 100%;
+  padding-top: 8px;
+  margin-left: -100%;
+  transition: all .2s;
+}
+
+.ColouredLine span:first-of-type {
+  width: 37%;
+  height: 100%;
+  background-color: #0d1e64;
+}
+
+.ColouredLine span:last-of-type {
+  width: 63%;
+  height: 100%;
+  background-color: #a55e3f;
+}
+
+header nav .MenuItem:hover .ColouredLine {
+  margin-left: 0;
+}
+
+header nav .MenuItem.active .ColouredLine {
+  margin-left: 0 !important;
+}
+
+.SubMenu {
+  background-color: white;
+  position: absolute;
+  width: 100px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  padding: 24px 32px;
+  top: 0px;
+  border-bottom-right-radius: 2px;
+  border-bottom-left-radius: 2px;
+  transition: all .2s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.SubMenu p {
+  color: grey;
+  font-size: 14px;
+  margin-bottom: 12px;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.SubMenu p:hover {
+  color: rgba(0,0,0,.85);
+}
+
+nav .MenuItem.dropdown:hover .SubMenu {
+  top: 59px;
+  visibility: visible;
+  opacity: 1;
+}
+
+
+section#banner {
+  background-image: url(./images/banner.jpeg);
+  height: 90VH;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 34px;
+}
+
+#banner h1 {
+  font-size: 70px;
+  color: white;
+  letter-spacing: 8px;
+}
+
+#banner p {
+  color: white;
+  font-size: 18px;
+  width: 800px;
+  text-align: center;
+  line-height: 30px;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+#banner a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 6px;
+  padding: 24px 50px;
+  background-image: url(./images/button_background_image.jpeg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-size: auto 62px ;
+  transition: all .2s;
+}
+
+#banner a:hover {
+  background-position: 47% 50%;
+}
