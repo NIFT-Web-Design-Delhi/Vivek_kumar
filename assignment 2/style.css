@@ -1,0 +1,241 @@
+*{
+/*   border: solid 1px black; */
+}
+Body{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: #125D98;
+  color: rgba(255,255,255,0.95);
+  font-size: 15px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  font-family: "微軟正黑體",sans-serif;
+}
+
+.myPhoto {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 3px;
+  background-image: url("./images/image.jpg");
+  background-size: 200px 200px;
+  background-position: center;
+}
+
+
+/* links */
+ul{
+  padding: 0;
+  list-style: none;
+}
+h2{
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+h2::after{
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 8px;
+  background-color: #3C8DAD;
+  margin-left: 10px;
+}
+
+a{
+  color: white;
+  text-decoration: none
+}
+hr{
+  border: none;
+  border-bottom: solid 4px #3C8DAD;
+  width: 40%;
+  margin-left: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+
+.Resume{
+  display: flex;
+  max-width: 950px;
+  border: solid 8px #DDDDDD;
+  padding: 50px;
+  position: relative;
+}
+.Left{
+  flex: 5
+}
+.Right{
+  flex: 7
+}
+.Left,.Right{
+  padding: 15px
+}
+.Left{
+  padding-right: 50px;
+  border-right: solid 1px #3C8DAD;
+}
+
+.Right{
+  padding-left: 50px;
+  padding-top: 150px;
+}
+
+
+.Decoration{
+  width: 300px;
+  height: 140px;
+  background: linear-gradient(135deg,#3C8DAD,#DDDDDD);
+  border-radius: 70px 0px 0px 70px;
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+
+.ListExperience>li{
+  display: flex;
+  margin-bottom: 10px;
+  
+}
+
+.ListExperience>li:nth-child(1) ul{
+  border-color: #3C8DAD
+}
+.ListExperience>li:nth-child(2) ul{
+  border-color: #FFA582
+}
+.ListExperience>li:nth-child(3) ul{
+  border-color: #FFB087
+}
+.ListExperience>li:nth-child(4) ul{
+  border-color: #FFDE9E
+}
+.ListExperience li ul{
+  padding-left: 10px;
+  margin-left: 10px;
+  border-left: solid 4px white
+}
+
+
+/* list skill */
+
+
+.ListSkill{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.ListSkill li{
+  width: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.Circle{
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background-color: rgb(14, 57, 89);
+}
+.Circle::after{
+  content: "";
+  display: block;
+  background-color: #125D98;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%)
+}
+.P90,.P180,.P270,.P360{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-color: #3C8DAD;
+}
+.P180{
+  top: 50%;
+}
+.P270{
+  left: 0;
+  top: 50%;
+}
+.P360{
+  left: 0;
+  top: 0;
+}
+
+
+/* list program */
+
+.ListProgram .Bar{
+  width: 150px;
+  height: 10px;
+  border: solid 2px #3C8DAD;
+  border-radius: 5px
+}
+.ListProgram li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.Value{
+  height: 100%;
+  width: 60%;
+  background-color: #3C8DAD;
+}
+.Value.p10{
+  width: 10%;
+}
+  
+.Value.P20{
+  width: 20%;
+}
+.Value.P30{
+  width: 30%;
+}
+.Value.P40{
+  width: 40%;
+}
+.Value.P50{
+  width: 50%;
+}
+.Value.p60{
+  width: 60%;
+}
+.Value.P70{
+  width: 70%;
+}
+.Value.P80{
+  width: 80%;
+}
+.Value.P90{
+  width: 90%;
+}
+
+.Value.P100{
+  width: 100%;
+}
+
+.hr{
+  padding-top:50 px
+}
+
+.fill{
+  background-color: #3C8DAD;
+}
