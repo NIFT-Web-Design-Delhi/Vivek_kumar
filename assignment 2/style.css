@@ -10,7 +10,7 @@ Body{
   font-size: 15px;
   line-height: 28px;
   letter-spacing: 1px;
-  font-family: "微軟正黑體",sans-serif;
+  font-family: "roboto",sans-serif;
 }
 
 .myPhoto {
@@ -98,7 +98,7 @@ hr{
 .ListExperience>li{
   display: flex;
   margin-bottom: 10px;
-  
+
 }
 
 .ListExperience>li:nth-child(1) ul{
@@ -126,7 +126,7 @@ hr{
 .ListSkill{
   display: flex;
   flex-wrap: wrap;
-  
+
 }
 .ListSkill li{
   width: 25%;
@@ -202,7 +202,7 @@ hr{
 .Value.p10{
   width: 10%;
 }
-  
+
 .Value.P20{
   width: 20%;
 }
