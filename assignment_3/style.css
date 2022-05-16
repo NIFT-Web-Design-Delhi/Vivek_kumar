@@ -117,7 +117,7 @@ section#Hero{
 }
 
 section#second {
-    background-image: url(/images/brownbg.webp);
+    background-image: url(images/brownbg.webp);
     height: 50VH;
     background-size: cover;
     background-position: center center;
