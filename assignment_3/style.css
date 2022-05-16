@@ -3,7 +3,7 @@
 
 
 html{
-    background-image: url(/images/bg.jpg)
+    
 }
 
 body {
@@ -190,6 +190,7 @@ section#third #text3{
     color: #bc5d35;
     font-size: 25px;
     line-height: 30px;
+    font-weight: 600;
     text-align:right;
     margin-bottom: 20px;
     }
@@ -197,25 +198,28 @@ section#third #text3{
  #third p{
     color: #303030;
     font-size: 14px;
-    font weight: 100;
+    font-weight: 300;
     line-height: 30px;
     text-align:right;
     margin-bottom: 20px;
     }
 
-  #third a{
+  #text2 #download{
     text-decoration: none;
     text-transform: uppercase;
     color:#bc5d35 ;
     font-size: 12px;
+    font-weight: 600;
     border: 4px solid #bc5d35;
     border-radius: 25px;
     padding: 8px 40px;
+    position: 40px 100px;
     
   }
 
   #third #vid1{
     border-radius: 25px;
+    height: 400px;
   }
 
   
@@ -239,6 +243,7 @@ section#third #text3{
   }
   #fourth h6{
     padding-top:100px;
+    font-weight: 600;
   }
   
   #text5 h5{
@@ -246,6 +251,7 @@ section#third #text3{
     color: #bc5d35;
     font-size: 25px;
     line-height: 30px;
+    font-weight: 600;
     text-align:left;
     margin-bottom: 20px;
   }
@@ -253,7 +259,7 @@ section#third #text3{
   #text5 p{
     color: #303030;
     font-size: 14px;
-    font weight: 100;
+    font-weight: 300;
     line-height: 30px;
     text-align:left;
     margin-bottom: 20px;
@@ -264,6 +270,7 @@ section#third #text3{
     text-transform: uppercase;
     color:#bc5d35 ;
     font-size: 12px;
+    font-weight: 600;
     border: 4px solid #bc5d35;
     border-radius: 25px;
     padding: 8px 40px;
@@ -285,7 +292,7 @@ section#third #text3{
   #text7 p{
     color: #303030;
     font-size: 14px;
-    font weight: 100;
+    font-weight: 300;
     line-height: 30px;
     max-width: 300px;
     text-align:left;
@@ -297,6 +304,7 @@ section#third #text3{
     text-transform: uppercase;
     color:#bc5d35 ;
     font-size: 12px;
+    font-weight: 600;
     border: 4px solid #bc5d35;
     border-radius: 25px;
     padding: 8px 40px;
@@ -342,10 +350,11 @@ section#third #text3{
   #line{
     display: flex;
     border-bottom: 2px solid #843614;
-    width: 70%; 
-    justify-content: center;
-    align-items: center;
-    margin:50px 200px;
+    width: 3000px;
+    justify-content:center;
+    align-items:center;
+    margin: 40px 0;
+    
   }
 
   #footer{
@@ -354,7 +363,7 @@ section#third #text3{
     flex-flow: row;
     justify-content: center;
     align-items: center;
-    padding:0 250px;
+    padding:0 400px;
     gap: 20px; 
   }
 
