@@ -370,7 +370,7 @@ section#third #text3{
   #footer  #lnks {
     display: flex;
     flex-direction: column;
-    margin-right: 400px;
+    margin-right: 200px;
   }
 
   #footer  #cont{
@@ -378,7 +378,8 @@ section#third #text3{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-right: 300px;
+    margin-left: ;
+    margin-right: 100px;
   }
 
   #cont #ins{
@@ -392,6 +393,7 @@ section#third #text3{
     flex-direction: column;
     justify-content:center;
     align-items:center;
+    margin-left: 100px;
   }
 
   #footer h2{
