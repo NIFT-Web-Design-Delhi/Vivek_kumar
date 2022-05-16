@@ -295,6 +295,17 @@ section#third #text3{
     font-weight: 300;
     line-height: 30px;
     max-width: 300px;
+    text-rendering:inherit;
+    text-align:left;
+    margin-bottom: 20px;
+  }
+
+  #text7 h5{
+    text-transform: uppercase;
+    color: #bc5d35;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
     text-align:left;
     margin-bottom: 20px;
   }
