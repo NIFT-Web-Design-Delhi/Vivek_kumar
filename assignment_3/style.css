@@ -322,6 +322,16 @@ section#third #text3{
     margin-top: 20px;
   }
 
+  #vid2{
+    width: 980px;
+    height: 417px;
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    margin:0px 0px 30px calc((100% - 980px) * 0.5);
+      
+  }
+
 
   h10{
     
