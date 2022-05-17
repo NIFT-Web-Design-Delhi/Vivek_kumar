@@ -49,7 +49,7 @@ body {
 
   .subscribe {
       border: 4px solid #ad4c31;
-      border-radius: 25px;
+      border-radius: 18px;
       padding: 4px 40px;
       margin: 0 auto;
   }
@@ -81,7 +81,7 @@ section#Hero{
 }
 
 #her1{
-    border-radius: 25px;
+    border-radius: 18px;
 }
 
 #Hero{
@@ -113,7 +113,7 @@ section#Hero{
     color: white;
     font-size: 12px;
     border: 4px solid #ffffff;
-    border-radius: 25px;
+    border-radius: 18px;
     padding: 8px 40px;
     margin: 0 auto;
     margin-top: 150px;
@@ -156,7 +156,7 @@ section#second {
     color: white;
     font-size: 12px;
     border: 4px solid #ffffff;
-    border-radius: 25px;
+    border-radius: 18px;
     padding: 8px 40px;
   }
 
@@ -215,14 +215,14 @@ section#third #text3{
     font-size: 12px;
     font-weight: 600;
     border: 4px solid #bc5d35;
-    border-radius: 25px;
+    border-radius: 18px;
     padding: 8px 40px;
     position: 40px 100px;
     
   }
 
   #third #vid1{
-    border-radius: 25px;
+    border-radius: 18px;
     height: 400px;
   }
 
@@ -243,7 +243,7 @@ section#third #text3{
   }
 
   #fourth img{
-    border-radius: 25px;
+    border-radius: 18px;
   }
   #fourth h6{
     padding-top:100px;
@@ -276,7 +276,7 @@ section#third #text3{
     font-size: 12px;
     font-weight: 600;
     border: 4px solid #bc5d35;
-    border-radius: 25px;
+    border-radius: 18px;
     padding: 8px 40px;
     margin-top: 20px;
   }
@@ -321,7 +321,7 @@ section#third #text3{
     font-size: 12px;
     font-weight: 600;
     border: 4px solid #bc5d35;
-    border-radius: 25px;
+    border-radius: 18px;
     padding: 8px 40px;
     margin-top: 20px;
   }
@@ -474,7 +474,7 @@ section#third #text3{
 
   #lern #download{
     border: 4px solid #ad4c31;
-      border-radius: 25px;
+      border-radius: 18px;
       color:#843614;
       padding: 4px 40px;
       font-weight: 600;
