@@ -44,7 +44,7 @@ body {
   }
 
   a:hover {
-    color: green;
+    color: #843614;
   }
 
   .subscribe {
@@ -93,8 +93,9 @@ body {
     position: absolute;
     color: white;
     font-size: 18px;
-    text-align: center;
+    text-align: justify;
     padding: 220px 10px 400px 400px;
+      
   }
 
   #Hero a {
@@ -396,7 +397,7 @@ section#third #text3{
     line-height: 30px;
     max-width: 300px;
     text-rendering:inherit;
-    text-align:center;
+    text-align:justify;
     padding:40px 20px;
   }
 
